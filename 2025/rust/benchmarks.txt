@@ -1,0 +1,53 @@
+day_01_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1      88.24 µs      │ 140.6 µs      │ 88.97 µs      │ 91.95 µs      │ 100     │ 100
+╰─ part2      103.2 µs      │ 177 µs        │ 103.6 µs      │ 105.4 µs      │ 100     │ 100
+
+day_02_bench         fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ parser            957.6 ns      │ 10.45 µs      │ 999.6 ns      │ 1.233 µs      │ 100     │ 100
+├─ part1             42.37 ms      │ 44.59 ms      │ 42.9 ms       │ 42.98 ms      │ 100     │ 100
+├─ part1_ilog        5.856 ms      │ 6.181 ms      │ 6 ms          │ 6.01 ms       │ 100     │ 100
+├─ part1_ilog_rayon  780.6 µs      │ 4.668 ms      │ 886.1 µs      │ 980.2 µs      │ 100     │ 100
+╰─ part2             11.29 ms      │ 18.29 ms      │ 14.47 ms      │ 14.16 ms      │ 100     │ 100
+
+day_03_bench     fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1         59.41 µs      │ 141.8 µs      │ 64.58 µs      │ 65.1 µs       │ 100     │ 100
+├─ part2         236 µs        │ 287.7 µs      │ 243.4 µs      │ 246.6 µs      │ 100     │ 100
+╰─ part2_reduce  47.95 µs      │ 109.6 µs      │ 52.31 µs      │ 54.18 µs      │ 100     │ 100
+
+day_04_bench         fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ parse             319.2 µs      │ 386.2 µs      │ 327 µs        │ 328.2 µs      │ 100     │ 100
+├─ part1             1.991 ms      │ 2.161 ms      │ 2.032 ms      │ 2.032 ms      │ 100     │ 100
+├─ part2             47.41 ms      │ 51.69 ms      │ 47.63 ms      │ 47.82 ms      │ 100     │ 100
+├─ part2_convolve    3.739 ms      │ 4.062 ms      │ 3.755 ms      │ 3.764 ms      │ 100     │ 100
+╰─ part2_rustc_hash  24.13 ms      │ 26.33 ms      │ 24.2 ms       │ 24.29 ms      │ 100     │ 100
+
+day_05_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1      104.4 µs      │ 150.7 µs      │ 104.9 µs      │ 107.1 µs      │ 100     │ 100
+╰─ part2      19.91 µs      │ 61.08 µs      │ 20.74 µs      │ 22.43 µs      │ 100     │ 100
+
+day_06_bench             fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1                 66.87 µs      │ 127.9 µs      │ 67.22 µs      │ 68.56 µs      │ 100     │ 100
+├─ part2                 54.83 µs      │ 96.91 µs      │ 55.33 µs      │ 58.09 µs      │ 100     │ 100
+├─ part2_inflight        35.87 µs      │ 79.16 µs      │ 36.04 µs      │ 38.88 µs      │ 100     │ 100
+╰─ part2_inflight_parse  6.999 µs      │ 13.41 µs      │ 7.395 µs      │ 7.708 µs      │ 100     │ 100
+
+day_07_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1      146.7 µs      │ 240.9 µs      │ 148 µs        │ 150.4 µs      │ 100     │ 100
+╰─ part2      116.7 µs      │ 186.9 µs      │ 118.8 µs      │ 123.1 µs      │ 100     │ 100
+
+day_08_bench        fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1            18.76 ms      │ 21.48 ms      │ 18.87 ms      │ 19.06 ms      │ 100     │ 100
+├─ part1_unionfind  23.47 ms      │ 26.3 ms       │ 23.62 ms      │ 23.84 ms      │ 100     │ 100
+├─ part2            26.26 ms      │ 29.56 ms      │ 26.52 ms      │ 26.68 ms      │ 100     │ 100
+╰─ part2_unionfind  23.54 ms      │ 26.12 ms      │ 23.63 ms      │ 23.74 ms      │ 100     │ 100
+
+day_09_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1      118.7 µs      │ 137.4 µs      │ 119 µs        │ 120.6 µs      │ 100     │ 100
+╰─ part2      10 ms         │ 11.03 ms      │ 10.09 ms      │ 10.2 ms       │ 100     │ 100
+
+day_10_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+╰─ part1      13.82 ms      │ 15.73 ms      │ 13.93 ms      │ 14.13 ms      │ 100     │ 100
+
+day_11_bench  fastest       │ slowest       │ median        │ mean          │ samples │ iters
+├─ part1      87.33 µs      │ 172.8 µs      │ 90.58 µs      │ 95.98 µs      │ 100     │ 100
+╰─ part2      262.7 µs      │ 364.4 µs      │ 268.5 µs      │ 277 µs        │ 100     │ 100
