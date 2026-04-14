@@ -45,7 +45,7 @@ features = ["trace"]
 default-features = false
 
 [workspace.dependencies.tracing-subscriber]
-version = "0.3.18"
+version = "0.3.23"
 features = [
     "fmt",
     "env-filter",
